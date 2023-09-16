@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/assets/748344.jpg"); 
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 50%;
+    min-height: 50%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.614);
+    padding: 2em;
+    text-align: center;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input label, input {
+    margin: 1em 0 0 0;
+}
+
+.input input {
+    width: 10em;
+    border-radius: 10px;
+    border:rgb(45, 45, 45) solid 1px;
+    padding: 0.4em;
+    box-sizing: border-box;
+}
+
+.input button {
+    padding: 1em;
+    background-color: rgb(56, 173, 56);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin: 1em 0 0 0;
+}
+
+.input button:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+.output {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.output-text {
+    width: 90%;
+    margin-bottom: 2em;
+}
+
+.image {
+    margin-top: 2em;
+    width: 400px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .card {
+        width: 100%;
+    }
+  }
