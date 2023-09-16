@@ -6,6 +6,7 @@ html {
 }
 
 body {
+    margin: 0;
     width: 100vw;
     height: 100vh;
     background-image: url("assets/748344.jpg"); 
@@ -15,9 +16,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .card {
+    margin-top: auto;
     width: 50%;
     min-height: 50%;
     background-color: white;
@@ -77,6 +80,33 @@ body {
 .image {
     margin-top: 2em;
     width: 400px;
+}
+
+.card li {
+    list-style: none;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    margin-top: auto;
+}
+
+footer p {
+    padding: 1em;
+}
+
+footer a {
+    color:rgb(56, 173, 56)
+}
+
+footer a:hover {
+    color:rgb(201, 255, 201)
+}
+
+footer a:visited {
+    color:rgb(47, 70, 47)
 }
 
 @media only screen and (max-width: 1000px) {
