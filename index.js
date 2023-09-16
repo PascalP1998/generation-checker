@@ -24,7 +24,7 @@ document.getElementById("submit").addEventListener("click", () => {
     } else if (year >= 2010 && year <= 2025) {
         image.setAttribute("src", "assets/bloking_Tik_Tok-02-1.png");
         text.innerHTML = "You're in the so called <strong>'Generation Alpha'</strong>! Generation Alpha (Gen Alpha or Generation α) is the successor generation to Generation Z. It is the generation that was born or will be born roughly between 2010 and 2025. It is the generation that was born or will be born roughly between 2010 and (2025) and is the generation that will grow up completely with the technologies of the 21st century. Their lives, i.e. their way of thinking and living, are still many times more digital than is the case with the digital natives. This generation will be shaped by further digitalisation, political instability and demographic change."
-    } else if (year > 2026) {
+    } else if (year > 2025) {
         image.setAttribute("src", "assets/tardis.png");
         text.innerHTML = "Found the Time Traveler!"
     } else {
