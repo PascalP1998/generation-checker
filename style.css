@@ -13,14 +13,19 @@ body {
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
+
+}
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 6em;
 }
 
 .card {
-    margin-top: auto;
+    margin-top: 2em;
     width: 50%;
     min-height: 50%;
     background-color: white;
@@ -90,7 +95,10 @@ footer {
     width: 100%;
     background-color: rgb(29, 29, 29);
     color: white;
-    margin-top: auto;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer p {
@@ -107,6 +115,18 @@ footer a:hover {
 
 footer a:visited {
     color:rgb(47, 70, 47)
+}
+
+footer button {
+    border: none;
+    font-size: 30px;
+    background-color: rgb(29, 29, 29);
+    padding: 0;
+    margin: 1em;
+}
+
+footer button:hover {
+    cursor:pointer;
 }
 
 @media only screen and (max-width: 1000px) {

@@ -1,30 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Generation Checker</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
     <div class="container">
       <div class="card">
         <h1>Generation Checker!</h1>
-        <p><strong>To which generation do you belong? Find out here!</strong></p>
+        <p><strong>Zu welcher Generation gehörst du?</strong></p>
         <div class="input">
-            <label for="year-input">Input your year of birth here!</label>
+            <label for="year-input">Gib dein Geburtsjahr hier ein!</label>
             <input type="number" id="year">
-            <button id="submit">Submit</button>
-            <p>Ex: 1998</p>
+            <button id="submit">Senden</button>
+            <p>Bsp: 1998</p>
         </div>
         <div class="output" id="output">
             <span class="output-text" id="text"></span>
             <img id="image" width="300px">
         </div>
         <div>
-          <h2>The Generations</h2>
+          <h2>Die Generationen</h2>
           <ul>
             <li><em>1928 - 1945</em>: Generation Silent</li>
             <li><em>1946 - 1964</em>: Generation Boomer</li>
@@ -40,7 +40,9 @@
   </body>
   <footer>
     <p>&copy Pascal Peters, 2023  |   Source for Generation Ranges and Descriptions: <a href="https://www.adigiconsult.ch/glossar/generation-silent-baby-boomer-x-y-me-millennials-z-alpha/" target="_blank">adigiconsult.ch</a></p>
-    <button id="language"><a href="de/index.html">🇩🇪</a></button>
+    <div>
+      <button id="language"><a href="../index.html">🇬🇧</a></button>
+    </div>
   </footer>
 </html>
 
